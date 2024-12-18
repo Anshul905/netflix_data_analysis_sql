@@ -16,7 +16,7 @@ CREATE TABLE netflix
 	description VARCHAR(550)
 );
 
-SELECT * FROM netflix;
+SELECT * FROM netflix limit 10;
 SELECT count(*) FROM netflix;
 
 
